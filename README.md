@@ -27,7 +27,7 @@
 ### 설치
 
 1. `cd reactjs.org` 를 실행하여 프로젝트 경로로 이동합니다.
-1. `yarn` 을 이용하여 npm 의존성 모듈들을 설치합니다.
+1. `yarn` 을 실행하여 npm 의존성 모듈들을 설치합니다.
 
 ### 개발 서버 실행하기
 
@@ -42,9 +42,9 @@
 
 ### 브랜치(branch) 만들기
 
-1. `reactjs.org` 로컬 저장소에서 `git checkout main`를 실행합니다.
+1. `reactjs.org` 로컬 저장소에서 `git checkout main`(혹은 git switch main)를 실행합니다.
 1. `git pull origin main`를 실행하여 최신 원본 코드를 보장할 수 있습니다.
-1. `git checkout -b the-name-of-my-branch` (`the-name-of-my-branch` 를 적절한 이름으로 교체)를 실행하여 브랜치를 만듭니다.
+1. `git checkout -b the-name-of-my-branch` 혹은 `git branch the-name-of-my-branch` (`the-name-of-my-branch` 를 적절한 이름으로 교체)를 실행하여 브랜치를 만듭니다.
 
 ### 수정하기
 
